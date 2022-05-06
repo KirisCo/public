@@ -1,0 +1,102 @@
+body {
+	background-color: lightgreen;
+}
+
+header {
+	background-color: #56FF46;
+	text-align: center;
+	color: black;
+}
+
+
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 70px;
+	font-family: verdana;
+	margin: 0px;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	font-family: verdana;
+	margin: 0px;
+}
+
+h3 {
+	color: black;
+	text-align: center;
+	font-size: 35px;
+	font-family: verdana;
+	margin: 0px;
+}
+
+p {
+	font-family: verdana;
+	font-size: 10px;
+	margin: 0px;
+}
+
+p1 {
+	font-family: verdana;
+	font-size: 30px;
+	text-align: center;
+	color: black;
+}
+
+footer {
+	background-color: #56FF46;
+	text-align: center;
+	color: black;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: lightblue;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: black;
+	font-family: Arial;
+	text-align: center;
+	padding: 20px 30px;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+li a:hover:not(.active) {
+	background-color: lightgreen;
+}
+
+.active {
+	background-color: lightgreen;
+}
+
+wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -142px;
+}
+
+.footer, .push {
+	height: 142px;
+}
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
